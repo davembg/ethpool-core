@@ -9,6 +9,7 @@ If you find any issues with the pool software please feel free to issue a pull r
 
 ### Setup guide using Ubuntu 15.10 (Wily Werewolf)
 * Install and configure Go *Check the latest version of GoLang here:* https://golang.org/dl/
+
 ####From your home directory:
 ```bash
 curl -O https://storage.googleapis.com/golang/go1.6.2.linux-amd64.tar.gz
@@ -22,7 +23,7 @@ echo "export GOPATH=$HOME/gomodules" >> .profile
 * Clone the repo
 `git clone https://github.com/davembg/ethpool-core.git`
 
-* grab the dependencies
+* Grab the dependencies
 ```bash
 go get github.com/ethereum/go-ethereum/common
 go get github.com/gorilla/mux
