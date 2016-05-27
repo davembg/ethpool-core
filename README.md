@@ -8,10 +8,10 @@ This code is intended to support Genoil's ethminer port, both getWork and some h
 If you find any issues with the pool software please feel free to issue a pull request.
 
 ### Setup guide using Ubuntu 15.10 (Wily Werewolf)
-* Install and configure Go *Check the latest version of GoLang here:* https://golang.org/dl/
-
-####From your home directory:
+* Install and configure Go<br />
+*Check the latest version of GoLang here:* https://golang.org/dl/
 ```bash
+cd ~
 curl -O https://storage.googleapis.com/golang/go1.6.2.linux-amd64.tar.gz
 tar xzf go1.6.2.linux-amd64.tar.gz
 mkdir gomodules
